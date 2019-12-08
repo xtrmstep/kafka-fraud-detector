@@ -16,8 +16,3 @@ services:
       TRANSACTIONS_TOPIC: queueing.transactions
       LEGIT_TOPIC: streaming.transactions.legit
       FRAUD_TOPIC: streaming.transactions.fraud
-
-networks:
-  default:
-    external:
-      name: kafka-network
